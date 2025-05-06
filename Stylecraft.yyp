@@ -36,11 +36,8 @@
   "name":"Stylecraft",
   "resources":[
     {"id":{"name":"Menuprin","path":"rooms/Menuprin/Menuprin.yy",},},
-    {"id":{"name":"Nivel1","path":"rooms/Nivel1/Nivel1.yy",},},
-    {"id":{"name":"Nivel2","path":"rooms/Nivel2/Nivel2.yy",},},
-    {"id":{"name":"nivel3","path":"rooms/nivel3/nivel3.yy",},},
-    {"id":{"name":"Tutoriall","path":"rooms/Tutoriall/Tutoriall.yy",},},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
+    {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
@@ -53,10 +50,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Menuprin","path":"rooms/Menuprin/Menuprin.yy",},},
-    {"roomId":{"name":"Tutoriall","path":"rooms/Tutoriall/Tutoriall.yy",},},
-    {"roomId":{"name":"Nivel1","path":"rooms/Nivel1/Nivel1.yy",},},
-    {"roomId":{"name":"Nivel2","path":"rooms/Nivel2/Nivel2.yy",},},
-    {"roomId":{"name":"nivel3","path":"rooms/nivel3/nivel3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
