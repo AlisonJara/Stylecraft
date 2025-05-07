@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_button_menu_parent","path":"objects/Obj_button_menu_parent/Obj_button_menu_parent.yy",},"propertyId":{"name":"button_text","path":"objects/Obj_button_menu_parent/Obj_button_menu_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Opciones",},
   ],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"MenuPrincipal",
+    "path":"folders/Objetos/MenuPrincipal.yy",
   },
   "parentObjectId":{
     "name":"Obj_button_menu_parent",
