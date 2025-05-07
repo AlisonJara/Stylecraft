@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto(rm_Nivel_1);
+room_goto(rm_Tutorial_1);
