@@ -8,8 +8,8 @@
   "name":"Obj_FlechaSiguiente_Seccion1_Vista_0",
   "overriddenProperties":[],
   "parent":{
-    "name":"Nivel1",
-    "path":"folders/Objetos/Nivel1.yy",
+    "name":"Tutorial",
+    "path":"folders/Objetos/Nivel1/Tutorial.yy",
   },
   "parentObjectId":{
     "name":"Obj_FlechaSiguiente_parent",

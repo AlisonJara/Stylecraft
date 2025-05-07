@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Controlador_Tutorial_Seccion_1",
+  "%Name":"Obj_input_nivel_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Controlador_Tutorial_Seccion_1",
+  "name":"Obj_input_nivel_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tutorial",
-    "path":"folders/Objetos/Nivel1/Tutorial.yy",
+    "name":"Nivel1",
+    "path":"folders/Objetos/Nivel1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
