@@ -35,6 +35,7 @@
   },
   "name":"Stylecraft",
   "resources":[
+    {"id":{"name":"fnt_feedback","path":"fonts/fnt_feedback/fnt_feedback.yy",},},
     {"id":{"name":"fnt_menu_btn","path":"fonts/fnt_menu_btn/fnt_menu_btn.yy",},},
     {"id":{"name":"fnt_texto_preguntas","path":"fonts/fnt_texto_preguntas/fnt_texto_preguntas.yy",},},
     {"id":{"name":"Obj_button_menu_Apariencia","path":"objects/Obj_button_menu_Apariencia/Obj_button_menu_Apariencia.yy",},},
@@ -43,12 +44,40 @@
     {"id":{"name":"Obj_button_menu_Opciones","path":"objects/Obj_button_menu_Opciones/Obj_button_menu_Opciones.yy",},},
     {"id":{"name":"Obj_button_menu_parent","path":"objects/Obj_button_menu_parent/Obj_button_menu_parent.yy",},},
     {"id":{"name":"Obj_button_menu_Salir","path":"objects/Obj_button_menu_Salir/Obj_button_menu_Salir.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
     {"id":{"name":"rm_Nivel_1","path":"rooms/rm_Nivel_1/rm_Nivel_1.yy",},},
+=======
+    {"id":{"name":"Obj_button_nivel_1","path":"objects/Obj_button_nivel_1/Obj_button_nivel_1.yy",},},
+    {"id":{"name":"Obj_button_nivel_2","path":"objects/Obj_button_nivel_2/Obj_button_nivel_2.yy",},},
+    {"id":{"name":"Obj_button_nivel_3","path":"objects/Obj_button_nivel_3/Obj_button_nivel_3.yy",},},
+    {"id":{"name":"Obj_button_nivel_4","path":"objects/Obj_button_nivel_4/Obj_button_nivel_4.yy",},},
+    {"id":{"name":"Obj_button_nivel_parent","path":"objects/Obj_button_nivel_parent/Obj_button_nivel_parent.yy",},},
+    {"id":{"name":"Obj_Controlador_Tutorial_Seccion_1","path":"objects/Obj_Controlador_Tutorial_Seccion_1/Obj_Controlador_Tutorial_Seccion_1.yy",},},
+    {"id":{"name":"Obj_FlechaSiguiente_parent","path":"objects/Obj_FlechaSiguiente_parent/Obj_FlechaSiguiente_parent.yy",},},
+    {"id":{"name":"Obj_FlechaSiguiente_Seccion1_Vista_0","path":"objects/Obj_FlechaSiguiente_Seccion1_Vista_0/Obj_FlechaSiguiente_Seccion1_Vista_0.yy",},},
+    {"id":{"name":"Obj_FlechaSiguiente_Seccion1_Vista_1","path":"objects/Obj_FlechaSiguiente_Seccion1_Vista_1/Obj_FlechaSiguiente_Seccion1_Vista_1.yy",},},
+    {"id":{"name":"Obj_FlechaSiguiente_Seccion1_Vista_2","path":"objects/Obj_FlechaSiguiente_Seccion1_Vista_2/Obj_FlechaSiguiente_Seccion1_Vista_2.yy",},},
+    {"id":{"name":"Obj_input_nivel_1","path":"objects/Obj_input_nivel_1/Obj_input_nivel_1.yy",},},
+    {"id":{"name":"Obj_mensaje_feedback","path":"objects/Obj_mensaje_feedback/Obj_mensaje_feedback.yy",},},
+    {"id":{"name":"Obj_opcion_arrastrable_correcta","path":"objects/Obj_opcion_arrastrable_correcta/Obj_opcion_arrastrable_correcta.yy",},},
+    {"id":{"name":"Obj_opcion_arrastrable_incorrecta","path":"objects/Obj_opcion_arrastrable_incorrecta/Obj_opcion_arrastrable_incorrecta.yy",},},
+    {"id":{"name":"Obj_siguiente_nivel","path":"objects/Obj_siguiente_nivel/Obj_siguiente_nivel.yy",},},
+    {"id":{"name":"Obj_VolverAtras","path":"objects/Obj_VolverAtras/Obj_VolverAtras.yy",},},
+    {"id":{"name":"Obj_zona_respuesta","path":"objects/Obj_zona_respuesta/Obj_zona_respuesta.yy",},},
+    {"id":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
+    {"id":{"name":"rm_Nivel_1","path":"rooms/rm_Nivel_1/rm_Nivel_1.yy",},},
+    {"id":{"name":"rm_Nivel_2","path":"rooms/rm_Nivel_2/rm_Nivel_2.yy",},},
+    {"id":{"name":"rm_SeleccionNivel","path":"rooms/rm_SeleccionNivel/rm_SeleccionNivel.yy",},},
+    {"id":{"name":"rm_Tutorial_1","path":"rooms/rm_Tutorial_1/rm_Tutorial_1.yy",},},
+    {"id":{"name":"background_2","path":"sprites/background_2/background_2.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"Background","path":"sprites/Background/Background.yy",},},
     {"id":{"name":"btn_background","path":"sprites/btn_background/btn_background.yy",},},
     {"id":{"name":"Frame","path":"sprites/Frame/Frame.yy",},},
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
+    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
+    {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
@@ -60,6 +89,12 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
     {"roomId":{"name":"rm_Nivel_1","path":"rooms/rm_Nivel_1/rm_Nivel_1.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"roomId":{"name":"rm_SeleccionNivel","path":"rooms/rm_SeleccionNivel/rm_SeleccionNivel.yy",},},
+    {"roomId":{"name":"rm_Tutorial_1","path":"rooms/rm_Tutorial_1/rm_Tutorial_1.yy",},},
+    {"roomId":{"name":"rm_Nivel_2","path":"rooms/rm_Nivel_2/rm_Nivel_2.yy",},},
+>>>>>>> Stashed changes
   ],
   "templateType":"game",
   "TextureGroups":[
