@@ -41,7 +41,7 @@
     {"$GMRAssetLayer":"","%Name":"Assets_Image_Vista_2","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_7863E429","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_7863E429","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.41,"scaleY":0.41,"spriteId":{"name":"Frame","path":"sprites/Frame/Frame.yy",},"x":96.0,"y":352.0,},
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_69F4DAC6","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_69F4DAC6","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.438,"scaleY":0.575,"spriteId":{"name":"FondoTexto","path":"sprites/FondoTexto/FondoTexto.yy",},"x":160.0,"y":456.0,},
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_4CAA4937","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4CAA4937","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09,"scaleY":0.09,"spriteId":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"x":160.0,"y":621.0,},
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_4CAA4937","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4CAA4937","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.09,"scaleY":0.09,"spriteId":{"name":"spr_Stylebot_Feliz","path":"sprites/spr_Stylebot_Feliz/spr_Stylebot_Feliz.yy",},"x":160.0,"y":621.0,},
       ],"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_Image_Vista_2","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_Image_Vista_0","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_6ECB90B1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6ECB90B1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.41,"scaleY":0.41,"spriteId":{"name":"Frame","path":"sprites/Frame/Frame.yy",},"x":96.0,"y":-32.0,},
@@ -51,8 +51,8 @@
   ],
   "name":"rm_Tutorial_1",
   "parent":{
-    "name":"Salas",
-    "path":"folders/Salas.yy",
+    "name":"Tutorial",
+    "path":"folders/Salas/Tutorial.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

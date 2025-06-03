@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_button_nivel_4",
+  "%Name":"Obj_button_Avanzado_T1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_button_nivel_4",
+  "name":"Obj_button_Avanzado_T1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_button_nivel_parent","path":"objects/Obj_button_nivel_parent/Obj_button_nivel_parent.yy",},"propertyId":{"name":"button_text","path":"objects/Obj_button_nivel_parent/Obj_button_nivel_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_button_nivel_parent","path":"objects/Obj_button_nivel_parent/Obj_button_nivel_parent.yy",},"propertyId":{"name":"button_text","path":"objects/Obj_button_nivel_parent/Obj_button_nivel_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
-    "name":"Nivel Básico",
-    "path":"folders/Objetos/SeleccionNivel/Nivel Básico.yy",
+    "name":"Nivel Avanzado",
+    "path":"folders/Objetos/SeleccionNivel/Nivel Avanzado.yy",
   },
   "parentObjectId":{
     "name":"Obj_button_nivel_parent",

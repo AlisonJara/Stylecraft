@@ -1,0 +1,15 @@
+Nivel Básico: Mundo de los Fundamentos CSS\
+Historia del Nivel Básico: Mundo de los Fundamentos CSS\
+Título narrativo: El Reino Desordenado
+
+Introducción: Tras ser expulsado de StyleCraft por un misterioso virus digital, nuestro protagonista aterriza en el primer mundo: un espacio desolado y caótico conocido como El Reino Desordenado. Allí, los elementos HTML vagan sin estructura ni estética, inmersos en un desorden visual total. Los textos son ilegibles, los fondos son grises por defecto, y no hay ni un solo rastro de estilo.
+
+Descripción del mundo: En este mundo, los edificios son bloques flotantes sin forma ni color, los carteles no tienen letras visibles, y los caminos son simples contornos que se confunden con el fondo. Todo luce igual: sin identidades, sin jerarquías visuales. Los "habitantes" (elementos como botones, textos, cajas) están congelados por la falta de estilos.
+
+Misión del jugador: Recuperar el orden restaurando los estilos fundamentales. Para avanzar, deberá usar los conocimientos de CSS para aplicar color, tamaño, tipografía y organización a los elementos HTML de este reino. Cada vez que el jugador completa correctamente un estilo, una parte del mundo vuelve a la vida: los caminos se iluminan, los carteles recuperan sus letras, y los habitantes se animan.
+
+Guía del jugador: Un personaje llamado Pixel (un antiguo aprendiz de StyleCraft) sirve como tutor. Le explica qué son los selectores y cómo se aplican propiedades CSS. A medida que el jugador avanza, Pixel muestra ejemplos resueltos y entrega pistas si el jugador se bloquea.
+
+Desafío final del nivel: El jugador debe enfrentarse a un área central donde todos los estilos están mezclados y mal aplicados. Para liberar el paso, deberá corregir código erróneo utilizando correctamente etiquetas, clases, IDs y principios del box model. Solo si lo logra, se abrirá el portal al siguiente mundo: El Mundo del Diseño Responsivo.
+
+Mensaje pedagógico final: "Los estilos no solo embellecen, también dan sentido. En un mundo sin CSS, todo pierde identidad."

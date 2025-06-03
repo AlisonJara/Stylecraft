@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Flecha_VolverAtras",
-    "path":"sprites/Flecha_VolverAtras/Flecha_VolverAtras.yy",
+    "name":"btn_Flecha_VolverAtras",
+    "path":"sprites/btn_Flecha_VolverAtras/btn_Flecha_VolverAtras.yy",
   },
   "spriteMaskId":null,
   "visible":true,

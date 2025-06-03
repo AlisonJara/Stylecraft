@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_button_nivel_parent","path":"objects/Obj_button_nivel_parent/Obj_button_nivel_parent.yy",},"propertyId":{"name":"button_text","path":"objects/Obj_button_nivel_parent/Obj_button_nivel_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
-    "name":"grupo1",
-    "path":"folders/Objetos/SeleccionNivel/grupo1.yy",
+    "name":"Nivel Básico",
+    "path":"folders/Objetos/SeleccionNivel/Nivel Básico.yy",
   },
   "parentObjectId":{
     "name":"Obj_button_nivel_parent",

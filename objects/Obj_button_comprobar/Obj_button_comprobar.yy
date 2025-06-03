@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Flecha_Siguiente",
-    "path":"sprites/Flecha_Siguiente/Flecha_Siguiente.yy",
+    "name":"btn_Flecha_Siguiente",
+    "path":"sprites/btn_Flecha_Siguiente/btn_Flecha_Siguiente.yy",
   },
   "spriteMaskId":null,
   "visible":true,
