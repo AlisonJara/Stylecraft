@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"StyleBot",
-    "path":"folders/Sprites/StyleBot.yy",
+    "name":"Stylebot",
+    "path":"folders/Sprites/Stylebot.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
