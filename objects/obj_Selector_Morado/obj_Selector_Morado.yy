@@ -30,7 +30,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"button_text_morado","filters":[],"listItems":[],"multiselect":false,"name":"button_text_morado","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"'color: purple'","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"button_text_morado","filters":[],"listItems":[],"multiselect":false,"name":"button_text_morado","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"'{color: purple;}'","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

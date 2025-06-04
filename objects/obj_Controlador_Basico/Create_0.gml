@@ -76,11 +76,11 @@ function avanzar_nivel() {
 chispa_pos_x = [50, 110, 690, 196]; // X en cada nivel
 chispa_pos_y = [58, 240, 70, 28];    // Y en cada nivel
 
-bruma_pos_x = [238, 445, 627, 270]; // X en cada nivel
-bruma_pos_y = [240, 23, 267, 90];    // Y en cada nivel
+bruma_pos_x = [ 445, 627, 270]; // X en cada nivel
+bruma_pos_y = [ 23, 267, 90];    // Y en cada nivel
 
-luna_pos_x = [415, 800, 224, 720]; // X en cada nivel
-luna_pos_y = [240, 211, 180, 320];    // Y en cada nivel
+luna_pos_x = [ 800, 224]; // X en cada nivel
+luna_pos_y = [ 211, 180];    // Y en cada nivel
 
 
 //generacion de figuras en el room
@@ -94,7 +94,7 @@ for (var i = 0; i < 4; i++) {
 }
 
 array_bruma = [];
-for (var i = 0; i < 4; i++) {
+for (var i = 0; i < 3; i++) {
     var bruma_inst = instance_create_layer(bruma_pos_x[i], bruma_pos_y[i], "Figuras", obj_Bruma);
     bruma_inst.image_xscale = 0.4;  // 80% del tamaño original
     bruma_inst.image_yscale = 0.4;
@@ -102,7 +102,7 @@ for (var i = 0; i < 4; i++) {
 }
 
 array_luna = [];
-for (var i = 0; i < 3; i++) {
+for (var i = 0; i < 2; i++) {
     var luna_inst = instance_create_layer(luna_pos_x[i], luna_pos_y[i], "Figuras", obj_Luna);
     luna_inst.image_xscale = 0.35;  // 30% del tamaño original
     luna_inst.image_yscale = 0.35;
