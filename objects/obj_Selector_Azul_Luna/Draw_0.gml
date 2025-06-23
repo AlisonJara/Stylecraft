@@ -12,7 +12,7 @@ draw_set_colour(c_black);
 //draw_text(x, y, button_text);
 
 // Usar escalado para hacer el texto más pequeño
-var text_scale = 0.3; // 70% del tamaño original
+var text_scale = 0.5; // 70% del tamaño original
 draw_text_transformed(x, y, button_text, text_scale, text_scale, 0);
 
 // Resetear configuración de texto

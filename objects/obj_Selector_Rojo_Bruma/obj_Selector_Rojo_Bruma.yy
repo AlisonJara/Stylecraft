@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Selector_Morado",
+  "%Name":"obj_Selector_Rojo_Bruma",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Selector_Morado",
+  "name":"obj_Selector_Rojo_Bruma",
   "overriddenProperties":[],
   "parent":{
     "name":"Tema_1",
@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"button_text_morado","filters":[],"listItems":[],"multiselect":false,"name":"button_text_morado","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"'{color:purple;}'","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"button_text_red","filters":[],"listItems":[],"multiselect":false,"name":"button_text_red","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Bruma{color:red;}","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

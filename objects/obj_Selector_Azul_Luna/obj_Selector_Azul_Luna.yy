@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Selector_Rojo",
+  "%Name":"obj_Selector_Azul_Luna",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Selector_Rojo",
+  "name":"obj_Selector_Azul_Luna",
   "overriddenProperties":[],
   "parent":{
     "name":"Tema_1",
@@ -30,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"button_text_red","filters":[],"listItems":[],"multiselect":false,"name":"button_text_red","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"'{color: red;}'","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Luna{color:blue;}","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -73,38 +73,38 @@ function avanzar_nivel() {
 
 
 //ubicación original de figuras
-chispa_pos_x = [50, 110, 690, 196]; // X en cada nivel
-chispa_pos_y = [58, 240, 70, 28];    // Y en cada nivel
+chispa_pos_x = [660]; // X en cada nivel
+chispa_pos_y = [200];    // Y en cada nivel
 
-bruma_pos_x = [ 445, 627, 270]; // X en cada nivel
-bruma_pos_y = [ 23, 267, 90];    // Y en cada nivel
+bruma_pos_x = [ 420]; // X en cada nivel
+bruma_pos_y = [ 23];    // Y en cada nivel
 
-luna_pos_x = [ 800, 224]; // X en cada nivel
-luna_pos_y = [ 211, 180];    // Y en cada nivel
+luna_pos_x = [224]; // X en cada nivel
+luna_pos_y = [180];    // Y en cada nivel
 
 
 //generacion de figuras en el room
 //Se agregan las instancias a un array para mantener control de ellos
 array_chispas = [];
-for (var i = 0; i < 4; i++) {
+for (var i = 0; i < 1; i++) {
     var chispa_inst = instance_create_layer(chispa_pos_x[i], chispa_pos_y[i], "Figuras", obj_Chispa);
-    chispa_inst.image_xscale = 0.3;  // 50% del tamaño original
+    chispa_inst.image_xscale = 0.3;  // % del tamaño original
     chispa_inst.image_yscale = 0.3;
     array_chispas[i] = chispa_inst;
 }
 
 array_bruma = [];
-for (var i = 0; i < 3; i++) {
+for (var i = 0; i < 1; i++) {
     var bruma_inst = instance_create_layer(bruma_pos_x[i], bruma_pos_y[i], "Figuras", obj_Bruma);
-    bruma_inst.image_xscale = 0.4;  // 80% del tamaño original
-    bruma_inst.image_yscale = 0.4;
+    bruma_inst.image_xscale = 0.3;  // % del tamaño original
+    bruma_inst.image_yscale = 0.3;
     array_bruma[i] = bruma_inst;
 }
 
 array_luna = [];
-for (var i = 0; i < 2; i++) {
+for (var i = 0; i < 1; i++) {
     var luna_inst = instance_create_layer(luna_pos_x[i], luna_pos_y[i], "Figuras", obj_Luna);
-    luna_inst.image_xscale = 0.35;  // 30% del tamaño original
+    luna_inst.image_xscale = 0.35;  // % del tamaño original
     luna_inst.image_yscale = 0.35;
     array_luna[i] = luna_inst;
 }
@@ -136,11 +136,22 @@ function mover_figuras_por_nivel() {
 }
 
 if (nivel_actual == 0) {
-    // Crear selectores de color en posiciones fijas
-    instance_create_layer(200, 450, "Instances", obj_Selector_Rojo);
-    instance_create_layer(350, 450, "Instances", obj_Selector_Azul);
-    instance_create_layer(500, 450, "Instances", obj_Selector_Verde);
-    instance_create_layer(680, 450, "Instances", obj_Selector_Morado);
+    // Crear selectores de color en posiciones fijas con escala personalizada
+var rojo = instance_create_layer(300, 400, "Instances", obj_Selector_Rojo_Bruma);
+rojo.image_xscale = 3; // Escala horizontal
+rojo.image_yscale = 0.7; // Escala vertical
+
+var azul = instance_create_layer(650, 400, "Instances", obj_Selector_Azul_Luna);
+azul.image_xscale = 3;
+azul.image_yscale = 0.7;
+
+var verde = instance_create_layer(300, 480, "Instances", obj_Selector_Verde_Chispa);
+verde.image_xscale = 3;
+verde.image_yscale = 0.7;
+
+var morado = instance_create_layer(650, 480, "Instances", obj_Selector_Morado);
+morado.image_xscale = 3;
+morado.image_yscale = 0.7;
 }
 
 function mostrar_selectores(mostrar) {
@@ -152,4 +163,29 @@ function mostrar_selectores(mostrar) {
         }
     }
 }
+
+//verificar las figuras estanc coloreadas en nivel 1
+function todas_figuras_coloreadas() {
+    // Chequea Chispas
+    for (var i = 0; i < array_length(array_chispas); i++) {
+        if (instance_exists(array_chispas[i]) && !array_chispas[i].coloreado) {
+            return false;
+        }
+    }
+    // Chequea Brumas
+    for (var i = 0; i < array_length(array_bruma); i++) {
+        if (instance_exists(array_bruma[i]) && !array_bruma[i].coloreado) {
+            return false;
+        }
+    }
+    // Chequea Lunas
+    for (var i = 0; i < array_length(array_luna); i++) {
+        if (instance_exists(array_luna[i]) && !array_luna[i].coloreado) {
+            return false;
+        }
+    }
+    return true;
+}
+
+
 
