@@ -6,15 +6,6 @@ instancias_nivel = ds_list_create();
 
 max_niveles = 3; // o puedes obtenerlo del JSON
 
-/* 1. Cargar JSON de tema
-var file = file_text_open_read("data/tema_1_selectores.json");
-var texto_json = "";
-while (!file_text_eof(file)) {
-    texto_json += file_text_read_string(file);
-    file_text_readln(file);
-}
-file_text_close(file);
-tema_data = json_parse(texto_json);*/
 
 // 2. Crear cámara
 if (!(view_camera[0])) {
@@ -50,10 +41,9 @@ function avanzar_nivel() {
     nivel_actual += 1;
     if(nivel_actual<=3){
         
-        if(nivel_actual>0){
-            mostrar_selectores(false);
-        }
-        
+        /*if(nivel_actual>0){
+            mostrar_selectores(false, obj_Selector_Color_Parent);
+        }*/
         // Mueve la cámara a la vista/sección siguiente
         mover_a_nivel(nivel_actual, cam, view_w);
         
@@ -62,7 +52,7 @@ function avanzar_nivel() {
         
         // Oculta el botón otra vez hasta que se complete el nuevo nivel
         with (obj_boton_siguiente) {
-            //activo = false;
+            activo = false;
             image_alpha = 0;
         }
     }else{
@@ -136,26 +126,50 @@ function mover_figuras_por_nivel() {
 }
 
 if (nivel_actual == 0) {
-    // Crear selectores de color en posiciones fijas con escala personalizada
-var rojo = instance_create_layer(300, 400, "Instances", obj_Selector_Rojo_Bruma);
-rojo.image_xscale = 3; // Escala horizontal
-rojo.image_yscale = 0.7; // Escala vertical
-
-var azul = instance_create_layer(650, 400, "Instances", obj_Selector_Azul_Luna);
-azul.image_xscale = 3;
-azul.image_yscale = 0.7;
-
-var verde = instance_create_layer(300, 480, "Instances", obj_Selector_Verde_Chispa);
-verde.image_xscale = 3;
-verde.image_yscale = 0.7;
-
-var morado = instance_create_layer(650, 480, "Instances", obj_Selector_Morado);
-morado.image_xscale = 3;
-morado.image_yscale = 0.7;
+        // Crear selectores de color en posiciones fijas con escala personalizada
+    var rojo = instance_create_layer(300, 400, "Instances", obj_Selector_Rojo_Bruma);
+    rojo.image_xscale = 3; // Escala horizontal
+    rojo.image_yscale = 0.7; // Escala vertical
+    
+    var azul = instance_create_layer(650, 400, "Instances", obj_Selector_Azul_Luna);
+    azul.image_xscale = 3;
+    azul.image_yscale = 0.7;
+    
+    var verde = instance_create_layer(300, 480, "Instances", obj_Selector_Verde_Chispa);
+    verde.image_xscale = 3;
+    verde.image_yscale = 0.7;
+    
+    var morado = instance_create_layer(650, 480, "Instances", obj_Selector_Morado);
+    morado.image_xscale = 3;
+    morado.image_yscale = 0.7;
 }
 
-function mostrar_selectores(mostrar) {
-    with (obj_Selector_Parent) {
+
+
+if (nivel_actual == 0){
+    
+            // Crear selectores de tamaño en posiciones fijas con escala personalizada
+    var tamano_bruma = instance_create_layer(300+view_w, 400, "Instances", obj_Selector_Tamano_Bruma);
+    tamano_bruma.image_xscale = 3; // Escala horizontal
+    tamano_bruma.image_yscale = 0.7; // Escala vertical
+    
+    var tamano_luna = instance_create_layer(650+view_w, 400, "Instances", obj_Selector_Tamano_Luna);
+    tamano_luna.image_xscale = 3;
+    tamano_luna.image_yscale = 0.7;
+    
+    var tamano_chispa = instance_create_layer(300+view_w, 480, "Instances", obj_Selector_Tamano_Chispa);
+    tamano_chispa.image_xscale = 3;
+    tamano_chispa.image_yscale = 0.7;
+    
+    var morado = instance_create_layer(650+view_w, 480, "Instances", obj_Selector_Tamano_BrumaXXL); //cambia las configuración de tamaño
+    morado.image_xscale = 3;
+    morado.image_yscale = 0.7;
+    
+    
+}
+
+function mostrar_selectores(mostrar, objeto) {
+    with (objeto) {
         visible = mostrar;
         if (mostrar) {
             x = start_x;
@@ -186,6 +200,10 @@ function todas_figuras_coloreadas() {
     }
     return true;
 }
+
+/*function todas_figuras_distinto_tamano(){
+    
+}*/
 
 
 

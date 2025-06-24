@@ -14,8 +14,8 @@
     "path":"folders/Objetos/Nivel Básico/Tema_1.yy",
   },
   "parentObjectId":{
-    "name":"obj_Selector_Parent",
-    "path":"objects/obj_Selector_Parent/obj_Selector_Parent.yy",
+    "name":"obj_Selector_Color_Parent",
+    "path":"objects/obj_Selector_Color_Parent/obj_Selector_Color_Parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

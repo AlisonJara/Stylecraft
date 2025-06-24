@@ -1,21 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Selector_Verde_Chispa",
+  "%Name":"obj_Selector_Tamano_Luna",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Selector_Verde_Chispa",
+  "name":"obj_Selector_Tamano_Luna",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tema_1",
-    "path":"folders/Objetos/Nivel Básico/Tema_1.yy",
+    "name":"Tema_2",
+    "path":"folders/Objetos/Nivel Básico/Tema_2.yy",
   },
   "parentObjectId":{
-    "name":"obj_Selector_Color_Parent",
-    "path":"objects/obj_Selector_Color_Parent/obj_Selector_Color_Parent.yy",
+    "name":"obj_Selector_Tamano_Parent",
+    "path":"objects/obj_Selector_Tamano_Parent/obj_Selector_Tamano_Parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"button_text_green","filters":[],"listItems":[],"multiselect":false,"name":"button_text_green","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Chispa{color:green;}","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Luna{ font-size: large; }","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

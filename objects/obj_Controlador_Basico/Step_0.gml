@@ -5,6 +5,7 @@ if (todas_figuras_coloreadas()){
         visible = true;
         layer_set_visible("Mensaje", true);
         texto_mensaje = "Bien Hecho! \nPresiona el portal\npara continuar.";
+        //hacer que aparezcan estrellas en el selector de nivel
     }
     
     //hacer visible la capa mensaje y enviar mensaje
@@ -12,3 +13,14 @@ if (todas_figuras_coloreadas()){
 
 
 //condicion nivel 2
+/*if (todas_figuras_distinto_tamano()){
+    //poner mensaje emergente
+    with(obj_TextoEmergente_2){
+        visible = true;
+        layer_set_visible("Mensaje", true);
+        texto_mensaje = "Bien Hecho! \nPresiona el portal\npara continuar.";
+        //que aparezcan las estrellas en selector de nivel
+    }
+}*/
+
+

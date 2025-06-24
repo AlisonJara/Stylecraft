@@ -34,3 +34,24 @@ function cambiar_color(color_nombre) {
         // Agregar mas si es necesario
     }
 }
+
+function cambiar_tamano(tamano){
+    switch (tamano) {
+        case "normal":
+            size_value = 0.3;
+            break;
+        case "small":
+            size_value = 0.15;
+            break;
+        case "large":
+            size_value = 0.4;
+            break;
+        // Agrega más si necesitas
+            case "x-large":
+            size_value = 0.4;
+            break;
+    }
+    image_xscale = size_value;
+    image_yscale = size_value;
+    coloreado = true; // Si también quieres usarlo para verificación
+}
