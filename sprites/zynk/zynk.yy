@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"zynk",
-    "path":"folders/Sprites/lvl_avanzado/zynk.yy",
+    "path":"folders/Sprites/niveles/lvl_avanzado/zynk.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

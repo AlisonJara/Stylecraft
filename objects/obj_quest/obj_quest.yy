@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
   "%Name":"obj_quest",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_quest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tema1",
-    "path":"folders/Objetos/lvl_avanzado/Tema1.yy",
+    "name":"lvl_avanzado",
+    "path":"folders/Objetos/niveles/lvl_avanzado.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -28,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_text",
     "path":"sprites/spr_text/spr_text.yy",

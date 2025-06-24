@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"vibra",
-    "path":"folders/Sprites/lvl_avanzado/vibra.yy",
+    "path":"folders/Sprites/niveles/lvl_avanzado/vibra.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"lvl_avanzado",
-    "path":"folders/Sprites/lvl_avanzado.yy",
+    "path":"folders/Sprites/niveles/lvl_avanzado.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Tema 3",
-    "path":"folders/Objetos/lvl_avanzado/Tema 3.yy",
+    "path":"folders/Objetos/niveles/lvl_avanzado/Tema 3.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"controller",
-    "path":"folders/Objetos/lvl_avanzado/Tema 2/controller.yy",
+    "path":"folders/Objetos/niveles/lvl_avanzado/Tema 2/controller.yy",
   },
   "parentObjectId":null,
   "persistent":false,

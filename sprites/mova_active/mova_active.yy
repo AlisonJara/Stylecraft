@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"mova",
-    "path":"folders/Sprites/lvl_avanzado/mova.yy",
+    "path":"folders/Sprites/niveles/lvl_avanzado/mova.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
