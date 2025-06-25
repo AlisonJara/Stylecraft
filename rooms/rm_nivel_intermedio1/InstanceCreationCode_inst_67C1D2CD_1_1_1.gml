@@ -1,0 +1,1 @@
+texto = "display: flex;";

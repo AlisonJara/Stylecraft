@@ -1,0 +1,1 @@
+texto = "flex-wrap: wrap;";

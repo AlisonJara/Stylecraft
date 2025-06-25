@@ -7,7 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_68C414B7","path":"rooms/rm_nivel_avanzado/rm_nivel_avanzado.yy",},
-    {"name":"inst_613F064A","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_6DB91EEE","path":"rooms/rm_nivel_avanzado/rm_nivel_avanzado.yy",},
     {"name":"inst_1856B842","path":"rooms/rm_nivel_avanzado/rm_nivel_avanzado.yy",},
     {"name":"inst_67C1D2CD","path":"rooms/rm_nivel_avanzado/rm_nivel_avanzado.yy",},

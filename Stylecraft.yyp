@@ -58,6 +58,8 @@
   "resources":[
     {"id":{"name":"fnt_menu_btn","path":"fonts/fnt_menu_btn/fnt_menu_btn.yy",},},
     {"id":{"name":"fnt_texto_preguntas","path":"fonts/fnt_texto_preguntas/fnt_texto_preguntas.yy",},},
+    {"id":{"name":"aceptar","path":"objects/aceptar/aceptar.yy",},},
+    {"id":{"name":"Help","path":"objects/Help/Help.yy",},},
     {"id":{"name":"Obj_button_menu_Logros","path":"objects/Obj_button_menu_Logros/Obj_button_menu_Logros.yy",},},
     {"id":{"name":"Obj_button_menu_Opciones","path":"objects/Obj_button_menu_Opciones/Obj_button_menu_Opciones.yy",},},
     {"id":{"name":"Obj_button_menu_parent","path":"objects/Obj_button_menu_parent/Obj_button_menu_parent.yy",},},
@@ -138,12 +140,12 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_nivel_intermedio1","path":"rooms/rm_nivel_intermedio1/rm_nivel_intermedio1.yy",},},
     {"roomId":{"name":"rm_nivel_avanzado","path":"rooms/rm_nivel_avanzado/rm_nivel_avanzado.yy",},},
     {"roomId":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
     {"roomId":{"name":"rm_Nivel_1","path":"rooms/rm_Nivel_1/rm_Nivel_1.yy",},},
     {"roomId":{"name":"rm_nivel_avanzado_2","path":"rooms/rm_nivel_avanzado_2/rm_nivel_avanzado_2.yy",},},
     {"roomId":{"name":"rm_nivel_avanzado_3","path":"rooms/rm_nivel_avanzado_3/rm_nivel_avanzado_3.yy",},},
-    {"roomId":{"name":"rm_nivel_intermedio1","path":"rooms/rm_nivel_intermedio1/rm_nivel_intermedio1.yy",},},
     {"roomId":{"name":"rm_nivel_intermedio2","path":"rooms/rm_nivel_intermedio2/rm_nivel_intermedio2.yy",},},
     {"roomId":{"name":"rm_nivel_intermedio3","path":"rooms/rm_nivel_intermedio3/rm_nivel_intermedio3.yy",},},
   ],
