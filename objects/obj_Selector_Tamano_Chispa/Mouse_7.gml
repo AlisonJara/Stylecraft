@@ -7,7 +7,7 @@ if (figura_colisionada != noone) {
 
 var figura_colisionada = instance_place(x, y, obj_Luna);
 if (figura_colisionada != noone) {
-    figura_colisionada.cambiar_tamano(tamano); // ¡Listo!
+    //figura_colisionada.cambiar_tamano(tamano); // ¡Listo!
         with (obj_TextoEmergente_2) {
         visible = true;
         layer_set_visible("Mensaje", true);

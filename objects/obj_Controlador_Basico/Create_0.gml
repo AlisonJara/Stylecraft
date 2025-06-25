@@ -3,8 +3,9 @@ view_h = 540;
 nivel_actual = 0;
 nivel_completado = false;
 instancias_nivel = ds_list_create();
+errores=0;
 
-max_niveles = 3; // o puedes obtenerlo del JSON
+max_niveles = 2; // o puedes obtenerlo del JSON
 
 
 // 2. Crear cámara
@@ -41,9 +42,6 @@ function avanzar_nivel() {
     nivel_actual += 1;
     if(nivel_actual<=3){
         
-        /*if(nivel_actual>0){
-            mostrar_selectores(false, obj_Selector_Color_Parent);
-        }*/
         // Mueve la cámara a la vista/sección siguiente
         mover_a_nivel(nivel_actual, cam, view_w);
         
@@ -51,15 +49,9 @@ function avanzar_nivel() {
         mover_figuras_por_nivel();
         
         // Oculta el botón otra vez hasta que se complete el nuevo nivel
-        with (obj_boton_siguiente) {
-            activo = false;
-            image_alpha = 0;
-        }
-    }else{
-        //go to seleccion de nivel 
-        room_goto(rm_SeleccionNivel);
-    }    
+    }   
 }
+
 
 
 //ubicación original de figuras
@@ -125,7 +117,9 @@ function mover_figuras_por_nivel() {
     }
 }
 
+
 if (nivel_actual == 0) {
+    
         // Crear selectores de color en posiciones fijas con escala personalizada
     var rojo = instance_create_layer(300, 400, "Instances", obj_Selector_Rojo_Bruma);
     rojo.image_xscale = 3; // Escala horizontal
@@ -142,7 +136,10 @@ if (nivel_actual == 0) {
     var morado = instance_create_layer(650, 480, "Instances", obj_Selector_Morado);
     morado.image_xscale = 3;
     morado.image_yscale = 0.7;
+    
 }
+
+
 
 
 
@@ -165,7 +162,6 @@ if (nivel_actual == 0){
     morado.image_xscale = 3;
     morado.image_yscale = 0.7;
     
-    
 }
 
 function mostrar_selectores(mostrar, objeto) {
@@ -177,6 +173,8 @@ function mostrar_selectores(mostrar, objeto) {
         }
     }
 }
+
+
 
 //verificar las figuras estanc coloreadas en nivel 1
 function todas_figuras_coloreadas() {
@@ -201,9 +199,28 @@ function todas_figuras_coloreadas() {
     return true;
 }
 
-/*function todas_figuras_distinto_tamano(){
-    
-}*/
+function todas_figuras_tamano_alterado() {
+    // Chequea Chispas
+    for (var i = 0; i < array_length(array_chispas); i++) {
+        if (instance_exists(array_chispas[i]) && !array_chispas[i].tamano_alterado) {
+            return false;
+        }
+    }
+    // Chequea Brumas
+    for (var i = 0; i < array_length(array_bruma); i++) {
+        if (instance_exists(array_bruma[i]) && !array_bruma[i].tamano_alterado) {
+            return false;
+        }
+    }
+    // Chequea Lunas
+    for (var i = 0; i < array_length(array_luna); i++) {
+        if (instance_exists(array_luna[i]) && !array_luna[i].tamano_alterado) {
+            return false;
+        }
+    }
+    return true;
+}
+
 
 
 

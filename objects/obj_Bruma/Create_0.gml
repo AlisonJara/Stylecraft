@@ -5,6 +5,7 @@ spr_azul = spr_Bruma_Blue;
 spr_verde = spr_Bruma_Green;
 spr_purple = spr_Bruma_Purple;
 coloreado = false; // Estado inicial: no coloreado
+tamano_alterado = false; //estado de cambio de tamaño
 
 // Puedes iniciar en gris
 sprite_index = spr_black;
@@ -39,19 +40,22 @@ function cambiar_tamano(tamano){
     switch (tamano) {
         case "normal":
             size_value = 0.3;
+            tamano_alterado= false;
             break;
         case "small":
             size_value = 0.15;
+            tamano_alterado= true;
             break;
         case "large":
             size_value = 0.4;
+            tamano_alterado= true;
             break;
         // Agrega más si necesitas
             case "x-large":
             size_value = 0.4;
+            tamano_alterado= true;
             break;
     }
     image_xscale = size_value;
     image_yscale = size_value;
-    coloreado = true; // Si también quieres usarlo para verificación
 }

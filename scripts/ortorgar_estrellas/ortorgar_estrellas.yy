@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script4",
+  "%Name":"ortorgar_estrellas",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script4",
+  "name":"ortorgar_estrellas",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

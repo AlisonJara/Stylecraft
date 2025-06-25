@@ -5,6 +5,7 @@ spr_azul = spr_Luna_Blue;
 spr_verde = spr_Luna_Green;
 spr_purple = spr_Luna_Purple;
 coloreado = false; // Estado inicial: no coloreado
+tamano_alterado= false;
 
 // Puedes iniciar en gris
 sprite_index = spr_black;
@@ -39,16 +40,18 @@ function cambiar_tamano(tamano){
     switch (tamano) {
         case "normal":
             size_value = 0.3;
+            tamano_alterado= false;
             break;
         case "small":
             size_value = 0.15;
+            tamano_alterado= true;
             break;
         case "large":
             size_value = 0.4;
+            tamano_alterado= true;
             break;
         // Agrega más si necesitas
     }
     image_xscale = size_value;
     image_yscale = size_value;
-    coloreado = true; // Si también quieres usarlo para verificación
 }    

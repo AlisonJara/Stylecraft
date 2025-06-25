@@ -14,9 +14,9 @@ var figura_colisionada = instance_place(x, y, obj_Luna);
 if (figura_colisionada != noone) {
     //figura_colisionada.cambiar_tamano(tamano); // ¡Listo!
         with (obj_TextoEmergente_2) {
-        visible = true;
-        layer_set_visible("Mensaje", true);
-        texto_mensaje = "Debes usar el \nID que corresponde \npara este personaje!";
+            visible = true;
+            layer_set_visible("Mensaje", true);
+            texto_mensaje = "Debes usar el \nID que corresponde \npara este personaje!";
     }
 }
 
